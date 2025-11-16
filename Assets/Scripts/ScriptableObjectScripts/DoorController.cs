@@ -1,19 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Unity.VisualScripting;
-using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.XR;
 
 public class DoorController : Controller
 {
     //movement valiables
     public GameObject doorObject;
     public Vector3 openingOrientation = Vector3.up;
-    public float openGap = 2f;
-    public float speedOpening = 2f;
+    public float openGap = 1f;
+    public float speedOpening = 1f;
 
     public State initialState;
 
